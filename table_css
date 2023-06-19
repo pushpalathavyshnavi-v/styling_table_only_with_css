@@ -21,12 +21,14 @@ ol a{
   color:black;
     text-decoration:none;
 }
+ol a:hover{
+  color:green;}
 li:hover{
   color:blue;
 }
 ol{
   list-style-position:inside;
-
+  cursor: help;
   list-style:disc;
   font-weight:bold;
 
